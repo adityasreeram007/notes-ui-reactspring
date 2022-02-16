@@ -11,3 +11,142 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  /* display: grid;
+  flex-wrap: wrap;
+ 
+ gap: 5px;
+  margin-top: 20px;
+  align-items: flex-start; */
+
+  /* -webkit-column-count: 4;
+  -moz-column-count:4; */
+  column-count: 3;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 0.8em;
+   margin: 0.8em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.0em;
+    font-size: .85em;
+    margin-left: 10%;
+    width: 80%;
+    
+  
+  
+}
+.logo{
+  width: 100%;
+}
+nav{
+  color:white;
+}
+.navrow{
+  width: 100%;
+}
+.navcol{
+  /* padding: 10px; */
+  
+  /* margin-left: 10px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+.search:focus{
+  background-color: white;
+
+}
+/* .noteshead{
+width: 80%;
+margin-left: 10%;
+} */
+
+.notehead{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.add{
+  
+  
+  font-size: medium;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  
+}
+
+.search{
+  background-color: rgb(227, 232, 236);
+  opacity: 0.2;
+  width: 100%;
+  border-radius: 5px;
+
+  font-size: larger;
+  text-align: center;
+  margin-top: -5px;
+}
+.bottombar{
+  margin-top: 5px;
+  height:20px;
+}
+.noteboxtitle{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border:hidden;
+  font-size: larger;
+  font-weight: 600;
+}
+.noteboxbody{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border:hidden;
+  overflow-x: hidden;
+  
+}
+.bottomtoolbar{
+  width:100%;
+  padding: 10px;
+  cursor: pointer;
+}
+.noteboxtitle:focus{
+  outline: none;
+}
+.noteboxbody:focus{
+  outline: none;
+}
+.notebox{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+.card{
+  /* padding: 15px;
+  flex: 0 0 23%;
+  height: fit-content; */
+  cursor: pointer;
+  display: inline-block;
+    background: #fff;
+    padding: 10px;
+    margin: 0 0 0.8em;
+    width: 100%;
+	-webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    
+    /* box-shadow: 2px 2px 4px 0 #ccc; */
+  
+  
+  
+}
